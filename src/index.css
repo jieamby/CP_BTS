@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.meteor {
+    width: 5px;
+    height: 35px;
+    background: linear-gradient(45deg, white, transparent);
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);    
+    animation: meteor-shower linear infinite;
+  }
+  
+  @keyframes meteor-shower {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(100vh) ;
+    }
+  }
+ 
+  
